@@ -29,7 +29,7 @@ agent = create_agent(model=llm, tools=tools)
 
 
 def main():
-    print("Hello from search-engine!")
+    print("Hello from search-agent!")
     result = agent.invoke(
         {
             "messages": HumanMessage(
